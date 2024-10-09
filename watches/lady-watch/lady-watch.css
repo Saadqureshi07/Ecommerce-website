@@ -1,0 +1,104 @@
+#h1{
+  background-color: brown;
+  width: 430px;
+  border-radius:20px ;
+  }
+  
+  .container{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(2,300px) 400px 80px;
+    grid-gap:20px;
+  }
+  
+  #items1{
+  background-color:aqua;
+  grid-column:1/5;
+  grid-row: 1/2;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+  #items2{
+  background-color:navy ;
+  grid-column:1/5;
+  grid-row: 2/3;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+
+  #items3{
+    background-color:blue;
+    border: 2px solid black;
+    grid-column: 1/5 ;
+    grid-row:3/4;
+    margin-top:20px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:450px 400px 400px ;
+    grid-template-rows:repeat(3,300px);
+    /* font-size:large; */
+    }
+
+    a{
+      text-decoration:none;
+      color: black;
+    }
+    .left-footer-side{
+      margin:10px;
+      margin-top: 50px;
+      margin-left: 30px;
+      /* color: black; */
+    }
+    .middel-footer-side{
+      margin:10px;
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+    
+    .right-footer-side{
+      margin:10px;
+      margin-top: 50px;
+      margin-left: 30px;
+    }
+    
+    .middel-footer-side h2{
+      font-size: 1.5rem;
+    }
+    
+    #ol-footer{
+      list-style: none;
+      margin-top:30px;
+    }
+    #ol li{
+      color: white;
+    }
+    
+    #no{
+      color: black;
+    }
+    
+    #gmail{
+      color: black;
+    }
+
+    .fa{
+      margin-left: 15px;
+      }
+
+
+    #items4{
+    background-color:green;
+    border: 2px solid black;
+    grid-column: 1/5;
+    grid-row:4/5;
+    margin-top:20px;
+    }
+    

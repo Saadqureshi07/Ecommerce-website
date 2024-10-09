@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Magnet</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="Mainfavi.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="../perfumes"></a>
+  <a href="../shoes/"></a>
+  <a href="../watches/"></a>
+  <style>
+    .w3-content {
+      margin-top: 3.5px;
+      margin-left: 150px;
+      height: 100vh;
+    }
+
+    .mySlides {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="items" id="items1">
+      <img src="luxury-img.png" alt="logo" id="logo">
+    </div>
+    <div class="items" id="items2">
+      <div class="header">
+        <nav id="navbar">
+          <ul id="list">
+            <a href="#">
+              <li id="l1">HOME</li>
+            </a>
+            <a href="catogries.html">
+              <li id="l2">CATEGORIES</li>
+            </a>
+            <a href="brands.html">
+              <li id="l3">BRANDS</li>
+            </a>
+            <a href="">
+              <li id="l4">ABOUT US</li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <input type="search" &#128269; name="search" placeholder="Search here" &#x1F50E; id="search">
+      <button id="btn">Search</button>
+      <a href="./Information/cart.html"><button id="cart">CART &#128722;</button></a>
+      <a href="./login page.html"><button id="logout">Logout</button></a>
+    </div>
+    <div class="items" id="items3">
+      <!-- <div class="w3-content w3-display-container"> -->
+      <a href="/shoes/lady-shoes/jorden.html"><img class="mySlides" src="/main/images/jorden.jpeg" style="width:100%"
+          height="495px"></a>
+      <a href="/perfumes/lady-perfume/Lacoste.html"><img class="mySlides" src="/main/images/lacoste.jpeg"
+          style="width:100%" height="495px"></a>
+      <a href="/shoes/Air jorden chicago 1.html"><img class="mySlides" src="/main/images/image.png" style="width:100%"
+          height="495px"></a>
+      <a href="/watches/Tissot.html"><img class="mySlides" src="/main/images/Tissot.jpeg" style="width:100%"
+          height="495px"></a>
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = x.length }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+    <div class="items" id="items4">
+      <div class="images-show-1">
+        <a href="/perfumes/million.html"> <img src="./screen-img/Air joden chicago 1.jpg" alt="" srcset="" height="99%"
+            width="400px" id="image1"></a>
+      </div>
+      <div class="images-show-2">
+        <a href="/shoes/Air jorden chicago 1.html"><img src="./screen-img/Edifice casio.jpeg" alt="" srcset=""
+            height="99%" width="400px" id="image2"></a>
+      </div>
+      <div class="images-show-3">
+        <a href="/watches/lady-watch/michal kors.html"><img src="./screen-img/love.jpeg" alt="" srcset="" height="99%"
+            width="400px" id="image3"></a>
+      </div>
+    </div>
+    <div class="items" id="items5">
+      <div class="images-show-4">
+        <a href="/watches/Edificecasio.html"> <img src="./screen-img/million.jpeg" alt="" srcset="" height="99%"
+            width="400px" id="image3"></a>
+      </div>
+      <div class="images-show-5">
+        <a href="/perfumes/lady-perfume/Versace.html"> <img src="./screen-img/michal kors.jpeg" alt="" srcset=""
+            height="99%" width="400px" id="image4"> <a href="#"></a>
+      </div>
+      <div class="images-show-6">
+        <a href="/shoes/lady-shoes/love.html"> <img src="./screen-img/versace.jpeg" alt="" srcset="" height="99%"
+            width="400px" id="image5"></a>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="items" id="items6">
+      <div class="left-footer-side">
+        <a href="">
+          <h1 link="">About us</h1>
+        </a> <br>
+        <h2>&#127968; 21 , AP COLLEGE </h2>
+        <a href="">
+          <h2 id="no"> &#9742; +8975458378</h2>
+        </a>
+        <a href="">
+          <h2 id="gmail"> &#x2709; usmanbhai@gmail.com</h2>
+        </a>
+      </div>
+      <div class="middel-footer-side">
+        <a href="">
+          <h1>CONTACT US</h1>
+        </a>
+        <ol id="ol-footer">
+          <a href="">
+            <li>HOME</li>
+          </a>
+          <a href="">
+            <li>HELP</li>
+          </a>
+          <a href="">
+            <li>FEEDBACK</li>
+          </a>
+          <a href="">
+            <li>BRANDS</li>
+          </a>
+          <a href="">
+            <li>CATEGORIES</li>
+          </a>
+        </ol>
+        <br>
+        <a href="#" class="fa fa-instagram" style="font-size:40px;color:red"></a>
+        <a href="#" class="fa fa-facebook" style="font-size:40px;color:rgb(244, 237, 237)"></a>
+        <a href="#" class="fa fa-twitter" style="font-size:40px;color:white"></a>
+        <a href="#" class="fa fa-linkedin" style="font-size:40px;color:white"></a>
+      </div>
+      <div class="right-footer-side">
+        <h1 id="REVIEW OR HELP">REVIEW OR HELP</h1>
+        <input type="text"><br><br>
+        <input type="submit" value="submit">
+        <h1>MAIL</h1>
+        <input type="text"><br><br>
+        <input type="submit" value="submit">
+      </div>
+    </div>
+    <!-- copyright -->
+    <div class="items" id="items7">
+      <center>
+        <h1>ALL RIGHTS RESEVERED &#169;COPYRIGHT</h1>
+      </center>
+    </div>
+  </div>
+</body>
+
+</html>
